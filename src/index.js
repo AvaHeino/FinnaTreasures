@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
 import './index.css';
-import buttonImage from './buttonImageBetter.png';
+import buttonImage from './FINAL.png';
 
 
 class App extends React.Component {
@@ -29,7 +29,7 @@ constructor(props) {
                 <p>Treasure Tracker-demo tuo Finnan aarteet eteesi yhdellä napin painaisulla.</p>
             </div>
             <div>
-                <button type="button" onClick={this.getData}>Loyda Aarteita!</button>
+                <button onClick={this.getData} id="picButton"><img src={buttonImage}/></button>
             </div>
             </div>
         )
