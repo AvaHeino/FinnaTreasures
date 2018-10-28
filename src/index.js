@@ -23,10 +23,11 @@ constructor(props) {
     render(){
 
         const buttonGUI = ()  => (
+            <div id="awesome">
             <div>
-            <div>
-                <p>Tervetuloa Treasure Trackeriin!</p>
-                <p>Treasure Tracker-demo tuo Finnan aarteet eteesi yhdellä napin painaisulla.</p>
+                <p>Tervetuloa Treasure Trackeriin!<br></br>
+                Treasure Tracker-demo tuo Finnan aarteet eteesi yhdellä napin painaisulla.<br></br>
+                <br></br>Paina nappia loytaaksesi aarteita</p>
             </div>
             <div>
                 <button onClick={this.getData} id="picButton"><img src={buttonImage}/></button>

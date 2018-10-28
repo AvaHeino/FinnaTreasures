@@ -92,9 +92,19 @@ div#object {
   align-items: center;
 }
 
-div#object > h1 {
-  align-self: flex-start;
-}
 /*#picButton {
   background-image:url('./FINAL.png')
 }*/
+
+div#awesome {
+  display: flex;
+  flex-flow: row nowrap;
+
+  justify-content: center;
+  align-items: flex-start;
+}
+
+div#awesome > div:first-child {
+  padding: 1rem;
+  align-self: center;
+}
